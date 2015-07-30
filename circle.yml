@@ -1,6 +1,6 @@
 dependencies:
  pre:
-  - sudo apt-get update; apt-get install git devscripts debhelper
+  - sudo apt-get update; sudo apt-get install git devscripts debhelper
 
 test:
  override:
