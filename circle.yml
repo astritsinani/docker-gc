@@ -1,0 +1,8 @@
+dependencies:
+ pre:
+  - sudo apt-get update; apt-get install git devscripts debhelper
+
+test:
+ override:
+  - debuild -us -uc -b
+  - echo 'upload to deb.tradeshift.com'
